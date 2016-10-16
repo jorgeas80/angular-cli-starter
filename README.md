@@ -1,6 +1,8 @@
 # AngularCliApp
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16. It includes the file .vscode/launch.json, with the debug configuration for angular-cli. 
+
+Debugging angular-cli applications with VSCode is not obvious because of [this bug](https://github.com/angular/angular-cli/issues/2453). The angular-cli team will hopefully fix the problem. But meanwhile, you can use this launch.json file.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
