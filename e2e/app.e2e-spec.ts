@@ -1,10 +1,10 @@
-import { AngularCliAppPage } from './app.po';
+import { AngularCliStarterPage } from './app.po';
 
-describe('angular-cli-app App', function() {
-  let page: AngularCliAppPage;
+describe('angular-cli-starter App', function() {
+  let page: AngularCliStarterPage;
 
   beforeEach(() => {
-    page = new AngularCliAppPage();
+    page = new AngularCliStarterPage();
   });
 
   it('should display message saying app works', () => {
